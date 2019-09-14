@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	
+
+	"github.com/bajalnyt/go_oreilly/greetingspackage"
 )
 
 // Constant grouping declaration
@@ -23,4 +24,6 @@ const (
 
 func main() {
 	fmt.Println(Barcelona)
+
+	greetingspackage.GopherGreetings()
 }
