@@ -1,8 +1,9 @@
 package main
 
 import (
-	"fmt"
+	f "fmt"
 
+	"github.com/bajalnyt/go_oreilly/functions"
 	"github.com/bajalnyt/go_oreilly/greetingspackage"
 )
 
@@ -23,7 +24,11 @@ const (
 )
 
 func main() {
-	fmt.Println(Barcelona)
+	f.Println(Barcelona)
 
 	greetingspackage.GopherGreetings()
+
+	f.Println(functions.SumAndDiffOperations(2, 3))
+	f.Println(functions.MultiSum(2, 3, 4, 5, 6))
+
 }
